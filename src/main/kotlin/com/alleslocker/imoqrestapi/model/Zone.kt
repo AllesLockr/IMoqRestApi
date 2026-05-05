@@ -1,4 +1,7 @@
 package com.alleslocker.imoqrestapi.model
 
-class Zone {
-}
+data class Zone(
+    val id: String,
+    val realEstate: RealEstate,
+    val locks: Set<Lock>,
+)

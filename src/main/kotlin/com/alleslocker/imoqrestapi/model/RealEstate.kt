@@ -1,7 +1,7 @@
 package com.alleslocker.imoqrestapi.model
 
-data class Person(
+data class RealEstate(
     val id: String,
     val name: String,
-    val keys: Set<Key>
+    val zones: List<Zone>
 )

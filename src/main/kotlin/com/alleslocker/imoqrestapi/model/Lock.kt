@@ -1,4 +1,6 @@
 package com.alleslocker.imoqrestapi.model
 
-class Lock {
-}
+data class Lock(
+    val id: String,
+    val canBeOpenedByKeyId: Key
+)
