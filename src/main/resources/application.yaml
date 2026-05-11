@@ -1,3 +1,5 @@
 spring:
   application:
     name: IMoqRestApi
+server:
+  port: 8089

@@ -25,12 +25,12 @@ class MockData {
         roles = arrayListOf(
             RoleDetails(
                 id = 1,
-                name = "Admin",
+                name = "admin",
                 permissions = arrayListOf(permissions[0]),
             ),
             RoleDetails(
                 id = 2,
-                name = "Person",
+                name = "person",
                 permissions = arrayListOf(permissions[1])
             )
         )
